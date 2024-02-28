@@ -1,0 +1,43 @@
+#container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-wrap {
+  width: 250px;
+  padding: 60px 50px;
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  /* margin-bottom: 0.6rem; */
+}
+
+.img_size {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+img {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height: 25px;
+  margin-bottom: 12px;
+}
