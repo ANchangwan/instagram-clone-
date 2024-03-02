@@ -1,15 +1,16 @@
-.btn {
+/* .btn {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
-}
-button {
+} */
+.btn-submit {
   height: 30px;
-  width: 200px;
+  width: 250px;
   background-color: #0095f6;
   color: white;
   border: none;
   border-radius: 5px;
   font-size: 15px;
+  margin-bottom: 20px;
 }

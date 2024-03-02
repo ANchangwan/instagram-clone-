@@ -32,7 +32,7 @@ img {
   flex-direction: column;
 }
 
-.login-box {
+#login-box {
   display: flex;
   flex-direction: column;
 }
@@ -40,4 +40,6 @@ img {
 input {
   height: 25px;
   margin-bottom: 12px;
+  border-radius: 5px;
+  border: solid 1px #dbdbdb;
 }
