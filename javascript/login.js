@@ -4,9 +4,8 @@ const password = login_box.querySelector("#password");
 
 function validateForm(e) {
   e.preventDefault();
-  console.log(email.value === "ssdii66@gmail.com");
 
-  if (email.value === "ssdii66@gmail.com" && password.value === "111") {
+  if (email.value === "ssdii66@gmail.com" && parseInt(password.value) === 111) {
     alert("확인되었습니다.");
     location.replace("main.html");
   } else if (password.value != 111) {
