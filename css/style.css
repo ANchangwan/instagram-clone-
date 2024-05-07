@@ -5,6 +5,7 @@
 
 /* screens */
 @import "screens/login.css";
+@import "screens/main.css";
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -18,3 +19,4 @@ a {
 a:hover {
   color: #6dc2fa;
 }
+
